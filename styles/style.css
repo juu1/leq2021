@@ -10,8 +10,30 @@
     padding-left: 2cm;
     justify-content: center;
     margin: auto;
-  
 }
+.relative {
+    position: relative;
+}
+#links {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+}
+
+#links a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+#links a:visited{
+    color: rgb(69, 63, 139);
+    text-decoration: none;
+}
+#links a:hover{
+    color: rgb(27, 38, 92);
+}
+
 .vocab {
     height: 5rem;
     width: auto;
