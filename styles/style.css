@@ -3,8 +3,21 @@
     width: auto;
     background-color: rgb(155, 170, 245);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.vocab {
+    height: 5rem;
+    width: auto;
+    background-color: rgb(155, 170, 245);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +33,7 @@
     color: white;
     font-size:  45px;
     padding:2cm;
+    display: flex;
 }
 .reklama2 {
     height: 3rem;
