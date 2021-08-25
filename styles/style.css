@@ -16,9 +16,9 @@
 }
 #links {
     position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 24px;
+    right: 4cm;
+    top: 1cm;
+    font-size: 20px;
 }
 
 #links a{
