@@ -13,7 +13,7 @@
 }
 
 .reklama {
-    height: 7rem;
+    height: 5rem;
     width: auto;
     background-color:rgb(27, 38, 92);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -22,7 +22,7 @@
     padding:2cm;
 }
 .reklama2 {
-    height: 7rem;
+    height: 3rem;
     width: auto;
     background-color:rgb(27, 38, 92);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
