@@ -27,7 +27,7 @@
 }
 
 .reklama {
-    height: 9rem;
+    height: 12rem;
     width: auto;
     background-color:rgb(27, 38, 92);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -65,8 +65,34 @@
     height: 60px;
     width:auto;
 }
-.button1:hover{
+.circle-button1:hover{
     background-color: rgb(69, 63, 139);
     
+}
+
+.circle-button{
+    background-color: rgb(5, 10, 36);
+    border: none;
+    color:whitesmoke;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    line-height: 175px;;
+    font-size: 20px;
+    border-radius: 150px;
+    height: 200px;
+    width:200px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.circle-button1:hover{
+        background-color: rgb(69, 63, 139);
+}       
+    
+
+.kolecka{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
