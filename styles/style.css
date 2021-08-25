@@ -1,10 +1,10 @@
 .banner {
-    height: 6rem;
+    height: 5rem;
     width: auto;
     background-color: rgb(155, 170, 245);
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     padding-left: 2cm;
@@ -17,10 +17,9 @@
 #links {
     position: absolute;
     right: 4cm;
-    top: 1cm;
+    top: 30px;
     font-size: 20px;
 }
-
 #links a{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -33,21 +32,69 @@
 #links a:hover{
     color: rgb(27, 38, 92);
 }
-
-.vocab {
-    height: 5rem;
-    width: auto;
-    background-color: rgb(155, 170, 245);
-    color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+.box{
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
+    height: auto;
+    line-height: 23.4px;
+    width: max-content;
+    background: rgb(155, 170, 245);
+    text-align: center;
+    margin-bottom: 37px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left:-225px;
 
+}
+.subscribeText{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: white;
+}
+.subscribeText2{
+    font-size: 20px;
+}
+.subscribeTitle{
+    font-size: 30px;
+}
+.submit{
+    background-color: rgb(27, 38, 92);
+    border: solid rgb(27, 38, 92);
+    color: white;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgb(69, 63, 139);
+    border: solid rgb(69, 63, 139);
+}
+.contact{
+    height: 20rem;
+    width: auto;
+    background-color: rgb(27, 38, 92);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+#prvnisloupec{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    
+}
+#adresa{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
 .reklama {
     height: 12rem;
     width: auto;
@@ -87,11 +134,22 @@
     height: 60px;
     width:auto;
 }
+
+.about{
+    color: rgb(5, 10, 36);
+    font-size: 20px;
+    border-left: 50px solid rgb(155, 170, 245);
+    border-bottom: 5px solid rgb(155, 170, 245);
+    border-top: 5px solid rgb(155, 170, 245);
+    border-right: 5px solid rgb(155, 170, 245);
+    padding: 2cm;
+
+}
+
 .circle-button1:hover{
     background-color: rgb(69, 63, 139);
     
 }
-
 .circle-button{
     background-color: rgb(5, 10, 36);
     border: none;
@@ -110,8 +168,6 @@
 .circle-button1:hover{
         background-color: rgb(69, 63, 139);
 }       
-    
-
 .kolecka{
     display:flex;
     flex-direction: row;
