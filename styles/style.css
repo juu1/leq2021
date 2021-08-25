@@ -26,13 +26,16 @@
 }
 
 .reklama {
-    height: 10rem;
+    height: 7rem;
     width: auto;
     background-color:rgb(27, 38, 92);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     font-size:  45px;
     padding:2cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
    
 }
 .reklama2 {
@@ -47,14 +50,21 @@
     
 }
 .button{
-        background-color: white;
-        border: none;
-        color: rgb(27, 38, 92);
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    background-color: rgb(5, 10, 36);
+    border: none;
+    color:whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 2px;
+    height: 60px;
+    width:auto;
 }
+.button1:hover{
+    background-color: rgb(69, 63, 139);
+    
+}
+
