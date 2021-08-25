@@ -1,0 +1,13 @@
+.banner {
+    height: 5rem;
+    width: auto;
+    background-color: rgb(155, 170, 245);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
