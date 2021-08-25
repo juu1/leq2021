@@ -13,7 +13,20 @@
 }
 
 .reklama {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    height: 7rem;
+    width: auto;
+    background-color:rgb(27, 38, 92);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size:  45px;
+    padding:2cm;
+}
+.reklama2 {
+    height: 7rem;
+    width: auto;
+    background-color:rgb(27, 38, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
     font-size: 20px;
+    padding: 2 cm;
 }
