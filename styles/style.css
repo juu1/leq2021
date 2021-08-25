@@ -27,13 +27,14 @@
 }
 
 .reklama {
-    height: 7rem;
+    height: 9rem;
     width: auto;
     background-color:rgb(27, 38, 92);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     font-size:  45px;
-    padding:2cm;
+    padding:1cm;
+    padding-left: 2cm;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
