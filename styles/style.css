@@ -10,4 +10,12 @@
     align-items: center;
     align-content: center;
     
+* {
+    color: solid black;
+    background-color: white;
+}
+.reklama {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 30px;
 }
