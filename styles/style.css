@@ -183,10 +183,9 @@
 }
 
 .vyplnove-texty{
-    border-left: 2px solid rgb(69, 63, 139);
-    padding-left:2cm;
-    padding: 0,5cm;
-    margin:1,5cm;
+    border-left: 10px solid rgb(69, 63, 139);
+    margin-left: 90px;
+    padding-left: 50px;
 
 }
 
@@ -225,3 +224,11 @@
     margin-right: 30px;
 
 }
+#another-element {
+    display: none;
+}
+.vocab {
+    color: rgb(5, 10, 36);
+    font-size: 20px;
+}
+
