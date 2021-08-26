@@ -163,9 +163,9 @@
     text-align: center;
     text-decoration: none;
     display: inline;
-    line-height: 175px;;
+    line-height: 195px;;
     font-size: 20px;
-    border-radius: 150px;
+    border-radius: 50%;
     height: 200px;
     width:200px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -242,5 +242,15 @@
 .vocab {
     color: rgb(5, 10, 36);
     font-size: 20px;
+    
+    height: auto;
+    width: auto;
+    background-color: rgb(155, 170, 245);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2cm;
+    justify-content: center;
+    margin: auto;
 }
 
