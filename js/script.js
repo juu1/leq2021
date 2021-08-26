@@ -8,6 +8,13 @@ $(document).ready(function(){
 });
 });
 
+$(document).ready(function(){
+    $(".toggle-button2").click(function(){
+    $("#another-element2").toggle();
+});
+});
+
+
 
 
    
