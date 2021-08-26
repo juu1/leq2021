@@ -336,15 +336,14 @@ table {
     background-color: rgb(5, 10, 36);
     border: none;
     color:whitesmoke;
-    padding: 15%;
-    text-align:
+    padding: 11%;
     text-decoration: none;
     display: inline;
     font-size: 20px;
-    height: 30px;
-    width:30px;
+    height: 15px;
+    width:15px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .circle-button1A:hover{
         background-color: rgb(69, 63, 139);
