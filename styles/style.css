@@ -199,12 +199,12 @@
     color: rgb(69, 63, 139);
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 50px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
   
 
 .alena{
