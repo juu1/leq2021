@@ -242,29 +242,29 @@
 .vocab {
     color: rgb(5, 10, 36);
     font-size: 20px;
-    
     height: auto;
     width: auto;
-    background-color: rgb(155, 170, 245);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: row;
-    padding-left: 2cm;
     justify-content: center;
     margin: auto;
+    padding: 2cm;
 }
 table {
-    font-family: arial, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-collapse: collapse;
     width: 100%;
+    border-left: 5px solid rgb(155, 170, 245);
+    border-bottom: 5px solid rgb(155, 170, 245);
+    border-top: 5px solid rgb(155, 170, 245);
+    border-right: 5px solid rgb(155, 170, 245);
+    color: rgb(5, 10, 36);
+    font-size: 20px;
   }
   
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
   }
