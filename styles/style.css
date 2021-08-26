@@ -169,7 +169,7 @@
     font-size: 20px;
     border-radius: 50%;
     height: 200px;
-    width:200px;
+    width: 200px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 10px;
 }
@@ -212,7 +212,6 @@
     color: rgb(69, 63, 139);
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
 
 }
 .list > div {
@@ -234,15 +233,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
+    height: 15rem;
     background-color:rgb(155, 170, 245) ;
-    padding-left: 1cm;
-    border-left: 50px solid rgb(155, 170, 245);
-    border-bottom: 5px solid rgb(155, 170, 245);
-    border-top: 5px solid rgb(155, 170, 245);
-    border-right: 5px solid rgb(155, 170, 245);
-    padding-right: 2cm;
-    padding-top: 2cm;
-    padding-bottom: 2cm;
+    padding-left: 2cm;
+    padding-right: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
     margin-top:1cm;
     margin-bottom: 1cm;
     
@@ -252,7 +248,7 @@
     display:flex;
     flex-flow: column;
     color: white;
-    font-size: x-large;
+    font-size: 20px;
 }
 .obrazek{
     height: 6cm;
@@ -297,7 +293,7 @@
     padding-left: 2cm;
     padding-right: 2cm;
     padding-top: 2cm;
-    
+
 }
 
 table {
@@ -306,10 +302,33 @@ table {
     width: 100%;
     font-size: 20px;
   }
-  
-  td, th {
+
+  .table1 td, .table1 th {
     
     text-align: left;
     padding: 8px;
     border: 1px solid #dddddd;
   }
+
+#links2 {
+    font-size: 20px;
+    margin: 1cm;
+    text-align: center;
+    vertical-align: middle;
+}
+#links2 a{
+    color: rgb(5, 10, 36);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+#links2 a:visited{
+    color: rgb(69, 63, 139);
+    text-decoration: none;
+}
+#links2 a:hover{
+    color: rgb(27, 38, 92);
+}
+#links2 th{
+    border: 5px solid rgb(155, 170, 245);
+    padding: 10px;
+}
