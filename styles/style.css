@@ -313,3 +313,27 @@ table {
     padding: 8px;
     border: 1px solid #dddddd;
   }
+
+  .circle-buttonA{
+    background-color: rgb(5, 10, 36);
+    border: none;
+    color:whitesmoke;
+    padding: 15%;
+    text-align:
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    height: 30px;
+    width:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+.circle-button1A:hover{
+        background-color: rgb(69, 63, 139);
+}       
+.koleckaA{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 1 cm;
+}
