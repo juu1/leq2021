@@ -200,7 +200,8 @@
 .popis{
     color: rgb(69, 63, 139);
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
 }
 .list{
     display: flex;
