@@ -182,3 +182,46 @@
     padding-bottom: 1 cm;
 }
 
+.vyplnove-texty{
+    border-left: 2px solid rgb(69, 63, 139);
+    padding-left:2cm;
+    padding: 0,5cm;
+    margin:1,5cm;
+
+}
+
+.nadpis{
+    color: rgb(69, 63, 139);
+    font-size: 40px;
+}
+.popis{
+    color: rgb(69, 63, 139);
+    font-size: 20px;
+}
+.alena{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    background-color:rgb(155, 170, 245) ;
+    padding-left: 1cm;
+    border-left: 50px solid rgb(155, 170, 245);
+    border-bottom: 5px solid rgb(155, 170, 245);
+    border-top: 5px solid rgb(155, 170, 245);
+    border-right: 5px solid rgb(155, 170, 245);
+    padding-right: 2cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    
+}
+
+.alena-text{
+    display:flex;
+    flex-flow: column;
+}
+.obrazek{
+    height: 6cm;
+    width: 6cm;
+    border-radius: 10cm;
+    margin-right: 30px;
+
+}
