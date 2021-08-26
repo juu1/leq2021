@@ -184,8 +184,10 @@
 
 .vyplnove-texty{
     border-left: 10px solid rgb(69, 63, 139);
-    margin-left: 90px;
+    margin-left: 70px;
     padding-left: 50px;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
 
 }
 
