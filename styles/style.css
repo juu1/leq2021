@@ -198,7 +198,15 @@
 .popis{
     color: rgb(69, 63, 139);
     font-size: 20px;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+  
+
 .alena{
     display: flex;
     flex-wrap: wrap;
@@ -212,6 +220,8 @@
     padding-right: 2cm;
     padding-top: 2cm;
     padding-bottom: 2cm;
+    margin-top:1cm;
+    margin-bottom: 1cm;
     
 }
 
