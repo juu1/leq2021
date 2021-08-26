@@ -261,6 +261,9 @@
 #another-element {
     display: none;
 }
+#another-element2 {
+    display: none;
+}
 .vocab {
     color: rgb(5, 10, 36);
     font-size: 20px;
@@ -271,22 +274,39 @@
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    padding: 2cm;
-}
-table {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+    margin: 2cm;    
     border-left: 5px solid rgb(155, 170, 245);
     border-bottom: 5px solid rgb(155, 170, 245);
     border-top: 5px solid rgb(155, 170, 245);
     border-right: 5px solid rgb(155, 170, 245);
+    
+}
+.media{
     color: rgb(5, 10, 36);
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 2cm;
+    
+}
+
+table {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
     font-size: 20px;
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    
     text-align: left;
     padding: 8px;
+    border: 1px solid #dddddd;
   }
