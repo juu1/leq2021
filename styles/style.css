@@ -182,3 +182,11 @@
     padding-bottom: 1 cm;
 }
 
+#another-element {
+    display: none;
+}
+.vocab {
+    color: rgb(5, 10, 36);
+    font-size: 20px;
+}
+
